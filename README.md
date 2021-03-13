@@ -1,1 +1,87 @@
 # problems-deletesubstring
+
+Question:
+
+Given two string s and n, your task is to delete the string n from s.
+Note:
+string n will be a substring of string s
+
+Input Description:
+
+A string of length up-to 100 characters.
+
+Output Description:
+
+Print the resultant string s, after deleting the string n from string s
+
+Hints:
+
+Find string n in the string s and then delete the string n from string s
+
+Sample Input:
+
+GUVITECHGUVITECH\n 
+TECH
+
+Sample Output:
+
+GUVIGUVI
+
+Explanation:
+
+After deleting string TECH from the string GUVITECHGUVITECH, the output is GUVIGUVI
+
+Testcase 1:
+
+Input:
+
+GUVIGUVITECHTECHGUVITECHGUVIGUVITECHTECHGUVITECHGUVIGUVITECHTECHGUVITECH\n 
+GUVI
+
+Output:
+
+TECHTECHTECHTECHTECHTECHTECHTECHTECH
+
+Testcase 2:
+
+Input:
+
+GUVIGUVITECHGUVIGUVITECHTECHGUVITECHGUVIGUVITECHGUVIGUVITECHTECHGUVITECH\n 
+UVI
+
+Output:
+
+GGTECHGGTECHTECHGTECHGGTECHGGTECHTECHGTECH
+
+Testcase 3:
+
+Input:
+
+GUVIGUVITECHGUVIGUVITECHTECHGUVITECHGUVIGUVITECHGUVIGUVITECHTECHGUVITECH\n
+UVITECH
+
+Output:
+
+GGGGGGGGGG
+
+Testcase 4:
+
+Input:
+
+GUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECH\n 
+VITECH
+
+Output:
+
+GUGUGUGUGUGUGUGUGU
+
+Testcase 5:
+
+Input:
+
+GUVITECHGUVITECHGUVIGUVITECHGUVIGUVITECHGUVITECHGUVIGUVITECHGUVIGUVITECHGUVITECHGUVIGUVITECHGUVIGUVITECHGUVITECHGUVIGUVITECHGUVI\n 
+ITECH
+
+Output:
+
+GUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUVGUV
